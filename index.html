@@ -106,7 +106,7 @@
 			$("polygon").remove();
 			$(".point").remove();
 			$(".captionzzz").remove();
-			$.ajax('engine.json.php', function(data){
+			$.ajax('engine.json', function(data){
 				var f = jQuery.parseJSON(data);
 				f.factions.forEach(function(faction){
 					_factions[faction.id] = faction;
