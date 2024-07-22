@@ -36,38 +36,5 @@
         {"minx":"4949","miny":"3919","maxx":"5283","maxy":"4102"}
       ]
     },
-    {
-  "id": 1166,
-  "name": "Playboys 13",
-  "color": "000000",
-  "thread": "laconchadelamamádekeon.com",
-  "turfIDs": [
-    "1166"
-  ],
-  "turfs": [
-    "5189 4650 5182 4745 5036 4749 5038 4614 5110 4617"
-  ],
-  "turfcenter": [
-    [
-      5111,
-      4675
-    ]
-  ],
-  "turfPolygon": [],
-  "dimensions": [
-    [
-      153,
-      135
-    ]
-  ],
-  "limits": [
-    {
-      "minx": 5036,
-      "miny": 4614,
-      "maxx": 5189,
-      "maxy": 4749
-    }
-  ]
-}
   ]
 }
