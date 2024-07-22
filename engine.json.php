@@ -1,4 +1,12 @@
-{
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    // Configura la cabecera para devolver JSON
+    header('Content-Type: application/json');
+    
+    // Tu lógica para generar la respuesta JSON
+    $response = [
+        "status" => "success",
+        "data" => {
   "factions": [
     {
       "id": "0",
@@ -38,3 +46,13 @@
     },
   ]
 }
+    ];
+
+    echo json_encode($response);
+} else {
+    // Devuelve un error 405 si se utiliza otro método HTTP
+    http_response_code(405);
+    echo json_encode(["error" => "Method not allowed"]);
+}
+?>
+
