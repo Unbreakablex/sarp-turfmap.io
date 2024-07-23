@@ -60,6 +60,11 @@
 	letter-spacing: 10px;
 }
 
+#panel .btn
+{
+	color: white;
+}
+
 #panel_content{
 	opacity: 1;
 }
