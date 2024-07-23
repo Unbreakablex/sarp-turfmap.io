@@ -173,12 +173,12 @@ table, td, tr{
 	font-size: 0.8em;
 }
 
-.prim
+.panel .prim
 {
 	color: #b4b202;
 }
 
-.sec
+.panel .sec
 {
 	color: #6b0000;
 }
