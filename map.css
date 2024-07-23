@@ -77,9 +77,8 @@
 	text-align: center;
 }
 
-#panel a{
+#panel li{
 	margin-left: 5px;
-	color: white;
 }
 
 .fact{
