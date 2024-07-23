@@ -60,16 +60,6 @@
 	letter-spacing: 10px;
 }
 
-#panel .faccone
-{
-	color: #6b0000;
-}
-
-#panel .facctwo
-{
-	color: #b4b202;
-}
-
 #panel_content{
 	opacity: 1;
 }
@@ -181,4 +171,14 @@ table, td, tr{
 	color: white;
 	font-weight: bold;
 	font-size: 0.8em;
+}
+
+.faccone
+{
+	color: #6b0000;
+}
+
+.facctwo
+{
+	color: #b4b202;
 }
