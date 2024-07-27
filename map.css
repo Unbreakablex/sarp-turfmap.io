@@ -173,17 +173,14 @@ table, td, tr{
 	font-size: 0.8em;
 }
 
-.pbs
-{
+#panel li .pbs{
 	color: #b4b202;
 }
 
-.out
-{
+#panel li .out{
 	color: #6b0000;
 }
 
-.gbb
-{
+#panel li .gbb{
 	color: #565676;
 }
