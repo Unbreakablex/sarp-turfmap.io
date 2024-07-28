@@ -1,5 +1,13 @@
-{
-"factions": {
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'GET') {
+    // Configura la cabecera para devolver JSON
+    header('Content-Type: application/json');
+
+    // Tu lógica para generar la respuesta JSON
+    $ajax = [
+        "status" => "success",
+        "data" => [
+            "factions": [
         {
   "id": 0,
   "name": "playboys 13",
@@ -32,39 +40,16 @@
       "maxy": 4556
     }
   ]
-},
-{
-  "id": 2696,
-  "name": "Kárpov OPG",
-  "color": "#ff0000",
-  "thread": "https://forum.sa-rp.es/index.php?/topic/1421-k%C3%A1rpov-opg/page/67/#comment-26178",
-  "turfIDs": [
-    "2696"
-  ],
-  "turfs": [
-    "5102 4386 5204 4388 5206 4495 5206 4520 5205 4530 5103 4497"
-  ],
-  "turfcenter": [
-    [
-      5171,
-      4469.333333333333
-    ]
-  ],
-  "turfPolygon": [],
-  "dimensions": [
-    [
-      104,
-      144
-    ]
-  ],
-  "limits": [
-    {
-      "minx": 5102,
-      "miny": 4386,
-      "maxx": 5206,
-      "maxy": 4530
-    }
+}
   ]
+    ]
+  ];
+
+    // Codifica y devuelve la respuesta JSON
+    echo json_encode($ajax);
+} else {
+    // Devuelve un error 405 si se utiliza otro método HTTP
+    http_response_code(405);
+    echo json_encode(["error" => "Method not allowed"]);
 }
-  }
-}
+?>
