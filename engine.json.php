@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET') {
         "data" => [
             "factions": [
         {
-  "id": 0,
+  "id": 3782,
   "name": "playboys 13",
   "color": "000000",
   "thread": "Discord.gg",
