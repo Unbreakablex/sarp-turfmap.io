@@ -181,8 +181,8 @@ table, td, tr{
 	color: #f0c058;
 }
 
-.gbb{
-	color: #565676;
+.sdg{
+	color: #00070b;
 }
 
 .smc{
@@ -190,11 +190,11 @@ table, td, tr{
 }
 
 .wdm{
-	color: #474747;
+	color: #111e31;
 }
 
 .asm{
-	color: #e1ef00;
+	color: #0b0c3d;
 }
 
 .tmb{
@@ -219,4 +219,16 @@ table, td, tr{
 
 .tiny{
 	color: #9c00df;
+}
+
+.ccg{
+	color: #fc0000;
+}
+
+.cue{
+	color: #353535;
+}
+
+.hot{
+	color: #2d3133;
 }
